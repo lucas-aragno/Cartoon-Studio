@@ -8,7 +8,7 @@ class SideBar extends Component {
   }
 
   render () {
-    let { label, callBack } = this.props
+    const { label, callBack } = this.props
     return (
       <a className='btn purple-btn'>
         {{ label }}
