@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react'
 
 class SideBar extends Component {
 
-  let propTypes = {
+  static propTypes = {
     label: PropTypes.string,
     callBack: PropTypes.func
   }
